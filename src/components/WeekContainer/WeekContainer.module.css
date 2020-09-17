@@ -1,0 +1,11 @@
+.header {
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.accordion {
+  width: 500px;
+  padding-top: 5%;
+}

@@ -1,0 +1,60 @@
+.cardContainer {
+    background-color: #303e9f;
+    margin-bottom: 1%;
+    border-radius: 0;
+    border: none;
+}
+
+.card {
+    border: none;
+    padding: 0;
+}
+
+.cardContent {
+    display: flex;
+    font-size: 12px;
+}
+
+.firstBox {
+    background-color: #283593;
+    width: 22%;
+    padding: 9%;
+}
+
+.date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    text-transform: uppercase;
+}
+
+.secondBox {
+    padding: 5%;
+}
+
+.temperature {
+    font-size: 20px;
+}
+
+.temperatureLow {
+    opacity: 70%;
+}
+
+.thirdBox {
+    padding-top: 10%;
+    padding-left: 40%;
+}
+
+.arrow {
+    margin-top: 20%;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid white;
+    float: right;
+    transition: 0.4s;
+}
+
+.arrow.up {
+    transform: rotate(180deg);
+}
